@@ -1,0 +1,11 @@
+{
+  "name": "stowe.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pkozlowski-opensource/stowe.js.git"
+  },
+  "dependencies": {
+    "electricity.js": "0.0.1"
+  }
+}
