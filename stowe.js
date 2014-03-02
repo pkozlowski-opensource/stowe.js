@@ -1,4 +1,4 @@
-import {Electricity} from 'electricity/electricity';
+import {Electricity} from 'electricity.js/electricity';
 
 class Stowe {
 
@@ -6,15 +6,15 @@ class Stowe {
     this.electricity = electricity;
   }
 
-  function on() {
+  on() {
     this.electricity.startUsing(this);
   }
 
-  function off() {
+  off() {
     this.electricity.stopUsing(this);
   }
 
-  function voltage() {
+  voltage() {
     return 230;
   }
 }
